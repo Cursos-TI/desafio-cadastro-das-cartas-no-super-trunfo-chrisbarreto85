@@ -18,6 +18,7 @@ int main() {
     float areatotal1, areatotal2;
     float PIB1, PIB2;
     int turis1, turis2;
+    float DP1, PC1, DP2, PC2;
 
     // Dados primeira carta.
 
@@ -36,6 +37,11 @@ int main() {
     scanf ("%f",&PIB1);
     printf ("Quantidade de pontos turísticos?");
     scanf ("%d",&turis1);
+
+    DP1 = (populacao1 / areatotal1);
+    PC1 = (PIB1 / populacao1);
+
+    
 
   // Dados da segunda carta.
 
@@ -65,6 +71,8 @@ printf ("População: %d\n", populacao1);
 printf ("Área em KM²: %f\n", areatotal1);
 printf ("PIB: %f\n", PIB1);
 printf ("Número de Pontos Turísticos: %d\n", turis1);
+printf ("Densidade Populacional: %f\n", DP1);
+printf ("PIB per Capita: %f\n", PC1);
 
 printf ("Carta 02:\n ");
 printf ("Estado: %s\n", estado2);
