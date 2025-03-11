@@ -60,6 +60,8 @@ int main() {
     scanf ("%f",&PIB2);
     printf ("Quantidade de pontos turísticos?");
     scanf ("%d",&turis2);
+    DP2 = (populacao2 / areatotal2);
+    PC2 = (PIB2 / populacao2);
 
 //Exibição de dados coletados.
 
@@ -82,7 +84,8 @@ printf ("População: %d\n", populacao2);
 printf ("Área em KM²: %f\n", areatotal2);
 printf ("PIB: %f\n", PIB2);
 printf ("Número de Pontos Turísticos: %d\n", turis2);
-
+printf ("Densidade Populacional: %f\n", DP2);
+printf ("PIB per Capita: %f\n", PC2);
 
     return 0;
 }
