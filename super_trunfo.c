@@ -5,7 +5,7 @@ int main() {
     char estado1[30], estado2[30];
     char codcart1[20], codcart2[20];
     char cidade1[30], cidade2[30];
-    int populacao1, populacao2;
+    unsigned long int populacao1, populacao2;
     float areatotal1, areatotal2;
     float PIB1, PIB2;
     int turis1, turis2;
