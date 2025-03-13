@@ -2,9 +2,9 @@
 
 int main() {
     // Declaração de variáveis
-    char estado1[30], estado2[30];
+    char estado1[20], estado2[20];
     char codcart1[20], codcart2[20];
-    char cidade1[30], cidade2[30];
+    char cidade1[20], cidade2[20];
     unsigned long int populacao1, populacao2;
     float areatotal1, areatotal2;
     float PIB1, PIB2;
@@ -14,11 +14,11 @@ int main() {
     // Dados da primeira carta
     printf("Digite os dados da primeira carta:\n");
     printf("Digite o estado (substitua espaços por - ou _): ");
-    scanf("%29s", estado1);
+    scanf("%s", estado1);
     printf("Digite o código da carta: ");
-    scanf("%19s", codcart1);
+    scanf("%s", codcart1);
     printf("Digite a cidade: ");
-    scanf("%29s", cidade1);
+    scanf("%s", cidade1);
     printf("Digite a população: ");
     scanf("%d", &populacao1);
     printf("Digite a área total em KM²: ");
@@ -35,11 +35,11 @@ int main() {
     // Dados da segunda carta
     printf("\nDigite os dados da segunda carta:\n");
     printf("Digite o estado (substitua espaços por - ou _): ");
-    scanf("%29s", estado2);
+    scanf("%s", estado2);
     printf("Digite o código da carta: ");
-    scanf("%19s", codcart2);
+    scanf("%s", codcart2);
     printf("Digite a cidade: ");
-    scanf("%29s", cidade2);
+    scanf("%s", cidade2);
     printf("Digite a população: ");
     scanf("%d", &populacao2);
     printf("Digite a área total em KM²: ");
