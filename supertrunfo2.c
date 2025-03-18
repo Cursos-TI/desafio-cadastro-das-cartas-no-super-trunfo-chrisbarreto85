@@ -103,13 +103,25 @@ printf ("PIB per Capita: %2.f\n", PC2);
 
 //comparação de cartas e exibição.
 
-printf ("População: Carta 1 venceu? %d\n", populacao1 > populacao2);
+/*printf ("População: Carta 1 venceu? %d\n", populacao1 > populacao2);
 printf ("Área: Carta 1 venceu? %d\n", areatotal1 > areatotal2);
 printf ("PIB: Carta 1 venceu? %d\n", PIB1 > PIB2);
 printf ("Pontos Turísticos: Carta 1 venceu? %d\n", turis1 > turis2);
 printf ("Densidade Populacional: Carta 1 venceu ? %d\n", DP1 > DP2);
 printf ("PIB per Capita: Carta 1 venceu? %d\n",PC1 > PC2);
 printf ("Super Poder: Carta 1 venceu? %d\n", super01 > super02);
+*/
 
-    return 0;
+//Comparação de cartas (Atributo: PIB):
+
+printf("Carta 01: %s PIB: %.2f\n", cidade1, PIB1);
+printf("Carta 02: %s PIB: %.2f\n", cidade2, PIB2);
+
+if (PIB1 > PIB2) {
+    printf("Carta 01 %s Venceu!\n", cidade1);
+} else {
+    printf("Carta 02 %s Venceu!\n", cidade2);
+}
+
+return 0;
 }
