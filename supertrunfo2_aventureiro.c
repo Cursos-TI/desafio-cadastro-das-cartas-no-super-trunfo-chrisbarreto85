@@ -78,28 +78,31 @@ case 1:
         printf ("País venceu %s ", pais2);
     }else
         printf ("Empatou!");
+break;
 case 2:
     printf ("País: %s:\n", pais1);
-    printf ("Área: %2.f:\n", areatotal1);
+    printf ("Área: %.2f:\n", areatotal1);
     printf ("País: %s:\n", pais2);
-    printf ("Área: %2.f:\n", areatotal2);
+    printf ("Área: %.2f:\n", areatotal2);
     if (areatotal1 > areatotal2){
         printf ("País venceu %s ", pais1); 
        }else if  (areatotal2 > areatotal1){
         printf ("País venceu %s ", pais2);
        }else
         printf ("Empatou!");
+break;
 case 3:
     printf ("País: %s:\n", pais1);
-    printf ("PIB: %2.f:\n", PIB1);
+    printf ("PIB: %.2f:\n", PIB1);
     printf ("País: %s:\n", pais2);
-    printf ("PIB: %2.f:\n", PIB2);
+    printf ("PIB: %.2f:\n", PIB2);
     if (PIB1 > PIB2){
         printf ("País venceu %s ", pais1); 
         }else if  (PIB2 > PIB1){
         printf ("País venceu %s ", pais2);
         }else
         printf ("Empatou!");
+break;
 case 4:
     printf ("País: %s:\n", pais1);
     printf ("Pontos Turisticos: %d:\n", turis1);
@@ -111,18 +114,19 @@ case 4:
         printf ("País venceu %s ", pais2);
         }else
         printf ("Empatou!");
+break;
 case 5:
     printf ("País: %s:\n", pais1);
-    printf ("Densidade demográfica: %2.f:\n", dens01);
+    printf ("Densidade demográfica: %f:\n", dens01);
     printf ("País: %s:\n", pais2);
-    printf ("Densidade demográfica: %2.f:\n", dens02);
+    printf ("Densidade demográfica: %f:\n", dens02);
     if (dens01 < dens02){
         printf ("País venceu %s ", pais1); 
         }else if  (dens02 < dens02){
         printf ("País venceu %s ", pais2);
         }else
         printf ("Empatou!");
-
+break;
 
 }
 
